@@ -12,7 +12,7 @@ public class Food {
     private int id;
     private String name;
     private String thumbnail
-    private double price;
+    private int price;
     private String description;
     private String youtobelink;
 
@@ -20,7 +20,7 @@ public class Food {
     public Food() {
     }
 
-    public Food(int id, String name, String thumbnail, double price, String description, String youtobelink) {
+    public Food(int id, String name, String thumbnail, int price, String description, String youtobelink) {
         this.id = id;
         this.name = name;
         this.thumbnail = thumbnail;
@@ -53,11 +53,11 @@ public class Food {
         this.thumbnail = thumbnail;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
